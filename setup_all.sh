@@ -9,4 +9,4 @@ source ~/.profile
 ansible-galaxy collection install community.general
 ansible-galaxy collection install community.docker
 
-ansible-playbook ./mizy.yml --check
+ansible-playbook ./mizy.yml
