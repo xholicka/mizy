@@ -145,7 +145,7 @@
         - Restart smbd
 
     - name: Create Samba Password for User pi
-      ansible.builtin.shell: "set -o pipefail && (echo pi; echo pi) | smbpasswd -s -a pi"
+      ansible.builtin.shell: "(echo pi; echo pi) | smbpasswd -s -a pi"
       notify:
         - Restart smbd
 
