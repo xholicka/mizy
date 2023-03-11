@@ -86,6 +86,7 @@
           - containerd.io
           - docker-compose-plugin
         state: present
+        update_cache: true
 
     - name: Add user to docker group
       ansible.builtin.user:
