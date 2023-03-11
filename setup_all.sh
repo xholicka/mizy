@@ -4,6 +4,8 @@ python3 -m pip install --user ansible
 python3 -m pip install --upgrade --user ansible
 python3 -m pip install --user argcomplete
 
+source ~/.profile
+
 ansible-galaxy collection install community.general
 ansible-galaxy collection install community.docker
 
